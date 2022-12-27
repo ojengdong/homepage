@@ -1,0 +1,175 @@
+
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+a{ 
+  text-decoration: none;
+}
+
+header{
+  border: 1px solid skyblue;
+  background-color: skyblue;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .logo {
+  border: 2px solid red;
+} */
+
+.logo img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+
+.gnb-list{
+  float: right;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+.gnb-item a{
+  font-weight: 700px;
+}
+
+.main{
+  flex-wrap: wrap;
+  background-image: url(../images/스누피\ 메인.jpg);
+  height: 500px;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.main-text{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+  margin: 0 auto;
+}
+
+.btn button{
+  color: black;
+  border-radius: 5px;
+}
+
+.position-box{
+  top: 100px;
+  right: 100px;
+  float: right;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border: 100%;
+  border-radius: 10px;
+  box-shadow: 3px 3px #888;
+  position: fixed;
+
+}
+
+.position-box div{
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.top{
+  border: 1px solid skyblue;
+  border-radius: 20px;
+  background-color: skyblue;
+  width: 800px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: -40px;
+}
+
+.second-txt{
+  text-align: center;
+  padding: 50px 20px;
+  font-weight: bold;
+}
+
+.second-txt p{
+  margin-top: 20px;
+}
+
+
+.post-card{
+  border: 1px solid skyblue;
+  border-radius: 20px;
+  background-color: skyblue;
+  width: 800px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.post-card h2{
+  margin-top: 50px;
+}
+
+
+.post-card-txt{
+  padding: 50px 40px;
+}
+
+.snoopy-box{
+  height: 600px;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snoopy{
+  width: 500px;
+  height: 500px;
+  background-image: url('../images/스누피\ 2.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 50px;
+  background-size: 500px;
+}
+
+footer{
+  background-color: seagreen;
+  padding: 20px 0;
+  margin-top: 120px;
+  }
+
+.glober-footer{
+  width:90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.footer-list{
+  display: flex;
+}
+
+.footer-item{
+  margin-right: 20px;
+}
+
+.footer-item:last-child{
+  margin-right: 0px;
+}
